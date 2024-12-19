@@ -6,7 +6,7 @@ typedef struct Node {
     struct Node* next;
 } Node;
 
-Node* zapoln(Node* head, int x, int y);
+Node* zapolneniye(Node* head, int x, int y);
 void print(Node* head);
 int kv(Node* node);
 Node* sort(Node* head);

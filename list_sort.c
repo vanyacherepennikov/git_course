@@ -3,7 +3,7 @@
 
 #include "list_sort.h"
 
-Node* zapoln(Node* head, int x, int y) {
+Node* zapolneniye(Node* head, int x, int y) {
     Node* newelement = malloc(sizeof(Node));
     newelement -> x = x;
     newelement -> y = y;
@@ -53,16 +53,16 @@ int main(){
     Node* list = NULL;
 
     /*(0, 0), (3, 4), (1, -1), (-2, 2), (5, 5), (-3, 0), (10, -10), (6, -2), (9, 1), (7, -7)*/
-    list = zapoln(list, 0, 0);
-    list = zapoln(list, 3, 4);
-    list = zapoln(list, 1, -1);
-    list = zapoln(list, -2, 2);
-    list = zapoln(list, 5, 5);
-    list = zapoln(list, -3, 0);
-    list = zapoln(list, 10, -10);
-    list = zapoln(list, 6, -2);
-    list = zapoln(list, 9, 1);
-    list = zapoln(list, 7, -7);
+    list = zapolneniye(list, 0, 0);
+    list = zapolneniye(list, 3, 4);
+    list = zapolneniye(list, 1, -1);
+    list = zapolneniye(list, -2, 2);
+    list = zapolneniye(list, 5, 5);
+    list = zapolneniye(list, -3, 0);
+    list = zapolneniye(list, 10, -10);
+    list = zapolneniye(list, 6, -2);
+    list = zapolneniye(list, 9, 1);
+    list = zapolneniye(list, 7, -7);
 
     list = sort(list);
 
