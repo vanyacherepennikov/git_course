@@ -14,7 +14,7 @@ Node* zapoln(Node* head, int x, int y) {
 void print(Node* head) {
     Node* current = head;
     while (current != NULL) {
-        printf("(%d, %d), ", current->x, current->y);
+        printf("(%d, %d) -> ", current->x, current->y);
         current = current->next;
     }
     printf("NULL\n");
